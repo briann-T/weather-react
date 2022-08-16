@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,1));
+  padding: 25px;
+}
+
+.app{
+  background-image: url(./assets/default.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+.app-hot{
+  background-image: url(./assets/hot.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+
+.search-box .search-bar{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 6px 7px rgba(0, 0, 0, 0.7);
+}
+
+.location-box .location {
+  margin: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 3px 3px  rgba(0, 0, 0, 0.4);
+}
+
+.weather-box{
+  margin: auto;
+  padding: 0 10px;
+}
+
+.temp{
+  margin-top: 20px;
+  position: relative;
+  font-size: 100px;
+  color: white;
+  padding: 15px 15px;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.weather{
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: 30px;
+}
+
+.weather-image{
+  display: inline-block;
+}
+
+.date{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
+.details{
+  font-size: 20px;
+  padding: 0px 0px 0px 50px;
+  display: inline-block;
+}
+
+.weather-details{
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30px 30px 30px 30px;
+  padding: 15px;
+  margin: 0 auto;
+  width: 550px;
+  background-color: rgba(255,255,200,0.3);
+}
